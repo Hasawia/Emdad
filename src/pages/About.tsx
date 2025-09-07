@@ -93,11 +93,11 @@ export default function About() {
         <div className="absolute inset-0 bg-emdad-navy opacity-80"></div>
         
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-          <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-emdad-gold mb-4 md:mb-6 animate-fade-in-up leading-tight">
+          <h1 className="heading-hero font-extrabold mb-4 md:mb-6 bg-gradient-to-r from-emdad-gold via-yellow-400 to-emdad-gold bg-clip-text text-transparent animate-pulse arabic-text leading-tight">
             {t('aboutPage.hero.title')}
           </h1>
           
-          <p className="text-sm xs:text-base sm:text-lg md:text-xl lg:text-2xl text-white leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+          <p className="body-large text-white leading-relaxed animate-fade-in-up arabic-text" style={{ animationDelay: '0.2s' }}>
             {t('aboutPage.hero.subtitle')}
           </p>
         </div>
